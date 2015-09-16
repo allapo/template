@@ -52,7 +52,9 @@ h2 {
 		color: #424242;
 		border-bottom: 1px solid ;
 	}
-
+h6 {
+	border-bottom: 1px solid ;
+}
 
 a:link, a:visited {
 		color: #fff;
