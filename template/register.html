@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Rock Manga Indo</title>
+
+  <!-- CSS  -->
+  <link href="img/rock.png" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="main-dock-wrapper" role="navigation">
+    <div class="nav-wrapper container1">&nbsp;&nbsp;
+        <img class="responsive-img" src="img/rock.png" width="60" height="63">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Register</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Change password</a></li>
+         <li class="divider"></li>
+        <li><a href="#!">Log out</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i></label>
+          
+        </div>
+      </form>
+      </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Setting<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#" title="Go to Home"><i class="material-icons">home</i></a></li>
+        <li><a href="#" title="About Me"><i class="material-icons">info_outline</i></a></li>
+        <li><a href="#" title="My Account"><i class="material-icons">perm_identity</i></a></li>
+        <li><a href="#" title="Setting"><i class="material-icons">settings_applications</i></a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+    <div class="row">
+      <div class="col s3">
+          <!-- Grey navigation panel -->
+          <h3 class="header center">Pelanggan lama</h3>
+              <button class="btn waves-effect waves-red" type="submit" name="action">Login
+                <i class="material-icons right">assignment_ind</i>
+              </button>
+      </div>
+
+      <div class="col s9">
+          <!-- Teal page content  -->
+          <h3 class="header center">Register</h3>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input placeholder="name" id="name" type="text" class="validate" length="50">
+                  <label for="password">Name</label>
+                </div>
+                <label>Select Negara</label>
+                <div class="input-field col s6">
+                  <select class="browser-default">
+                    <option value="" disabled selected>Pilih negara</option>
+                    <option value="1">Indonesia</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">supervisor_account</i>
+                  <input placeholder="username" id="user" type="text" class="validate" length="50">
+                  <label for="password">Username</label>
+                </div>
+                <label>Select Provinsi</label>
+                <div class="input-field col s6">
+                  <select class="browser-default">
+                    <option value="" disabled selected>Pilih provinsi</option>
+                    <option value="1">Jawa Barat</option>
+                    <option value="2">Jawa Timur</option>
+                    <option value="3">Jawa Tengah</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">lock</i>
+                  <input placeholder="password" id="password" type="password" class="validate" length="10">
+                  <label for="password">Password</label>
+                </div>
+                <label>Select Kota</label>
+                <div class="input-field col s6">
+                  <select class="browser-default">
+                    <option value="" disabled selected>Pilih kota</option>
+                    <option value="1">Bandung</option>
+                    <option value="2">Jakarta</option>
+                    <option value="3">Surabaya</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input placeholder="email" id="email" type="email" class="validate" length="50">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">work</i>
+                  <input placeholder="kode POS" id="password" type="text" class="validate" length="10">
+                  <label for="password">Kode POS</label>
+                </div>
+              </div>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      &nbsp;&nbsp;<i class="material-icons prefix">mode_edit</i>
+                      <textarea placeholder="alamat" id="icon_prefix2" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2">Alamat</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input placeholder="telephone" id="password" type="text" class="validate" length="10">
+                      <label for="password">Telephone</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <form action="#">
+                <p>
+                  &nbsp;&nbsp;<input type="checkbox" id="test5" />
+                  <label for="test5">Saya telah membaca dan menyetujui</label>&nbsp;<a class="black-text text-lighten-3" href="#!">Persyaratan Member</a>
+                </p>
+              </form><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<button class="btn waves-effect waves-red" type="submit" name="action">Daftar
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="main-dock-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h4 class="white-text">Tentang kami</h4>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h2 class="white-text">Settings</h2>
+          <ul>
+            <li><a class="white-text" href="#!">Account</a></li>
+            <li><a class="white-text" href="#!">List Produk</a></li>
+            <li><a class="white-text" href="#!">Pembayaran</a></li>
+            <li><a class="white-text" href="#!">Konfirmasi Order</a></li>
+          </ul>
+        </div>
+        <div class="col l31 s12">
+          <h2 class="white-text">Connect</h2>
+          <ul>
+            <li class="white-text">Email     : kahfimuhammad01@gmail.com</a></li>
+            <li class="white-text">Contack   : 085721627627</a></li>
+            <li class="white-text">BBM       : 5A17885E</a></li>
+            <li class="white-text">Facebook  : Muhammad Al Kahfi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <font color="#fff">Coprlight by</font>&nbsp;<a class="black-text text-lighten-3" href="http://materializecss.com">Muhammad Kahfi</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script> 
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+  </script>
+
+
+  </body>
+</html>
