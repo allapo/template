@@ -5604,15 +5604,17 @@ small {
       left: 0;
       right: 0; }
   .card.small {
-    height: 300px; }
+    height: 300px;
+    width: 250px; }
     .card.small .card-image {
-      height: 150px; }
+      height: 200px;
+      width: 245px; }
     .card.small .card-content {
-      height: 150px; }
+      height: 200px; }
   .card.medium {
     height: 400px; }
     .card.medium .card-image {
-      height: 250px; }
+      height: 300px; }
     .card.medium .card-content {
       height: 150px; }
   .card.large {
