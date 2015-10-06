@@ -14,7 +14,10 @@
 <body>
   <nav class="main-dock-wrapper" role="navigation">
     <div class="nav-wrapper container1">&nbsp;&nbsp;
-        <img class="responsive-img" src="../img/rock.png" width="60" height="63">
+      <ul class="left hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#"><i class="tiny material-icons left">error_outline</i>About</a></li>
+        <li><a href="#"><i class="tiny material-icons left">perm_identity</i>My Account</a></li>
+      </ul>
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="../register.html">Register</a></li>
         <li class="divider"></li>
@@ -23,17 +26,8 @@
         <li><a href="#!">Log out</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label for="search"><i class="material-icons">search</i></label>
-          
-        </div>
-      </form>
-      </li>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">My Account</a></li>
+        <li><a href="../komik.html">Produk</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Setting<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
@@ -48,7 +42,19 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
+       <div class="row">
+          <div class="col s7">
+            <img class="responsive-img" src="../img/l.png" width="400">
+          </div>
+          <div class="col s5 ">
+            <form><label>Searchs</label>
+              <div class="input-field hoverable">
+                <input id="search" type="search" required>
+                <label for="search"><i class="material-icons">search</i></label>
+              </div>
+            </form>
+          </div>
+        </div>
       <a class="black-text" href="../index.html">Home/ </a><a class="black-text" href="../komik.html">Produk/ <a class="blue-text text-lighten-3" href="detail3.html">Detail produk</a>
       <h6></h6>
       <form class="col s12">
@@ -103,7 +109,7 @@
                 <img style="margin-top:5px; margin-left:5px;" class="activator" src="../img/komik/2.jpg" width="150" height="200">
               </div>
               <div class="card-content">
-                <a href="detail/detail1.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
+                <a href="detail1.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
                 Attack on Titan<br><b>Rp. 50.000</b>
               </div>
             </div>
@@ -117,7 +123,7 @@
                 <img style="margin-top:5px; margin-left:5px;" class="activator" src="../img/komik/6.jpg" width="150" height="200">
               </div>
               <div class="card-content">
-                <a href="detail/detail2.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
+                <a href="detail2.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
                 Onepiece<br><b>Rp. 50.000</b>
               </div>
             </div>
@@ -131,7 +137,7 @@
                 <img style="margin-top:5px; margin-left:5px;" class="activator" src="../img/komik/4.jpg" width="150" height="200">
               </div>
               <div class="card-content">
-                <a href="detail/detail3.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
+                <a href="detail3.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
                 Bleach<br><b>Rp. 50.000</b>
               </div>
             </div>
@@ -145,7 +151,7 @@
                 <img style="margin-top:5px; margin-left:5px;" class="activator" src="../img/komik/CodeBreakervol1.png" width="150" height="200">
               </div>
               <div class="card-content">
-                <a href="detail/detail4.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
+                <a href="detail4.html" style="color:#000;"><span class="card-title activator grey-text text-darken-4"><i class="material-icons right">shopping_cart</i></span></a>
                 Code Breaker<br><b>Rp. 50.000</b>
               </div>
             </div>
@@ -176,7 +182,7 @@
         <div class="col l3 s12">
           <h2 class="white-text">Settings</h2>
           <ul>
-            <li><a class="white-text" href="#!">Account</a></li>
+            <li><a class="white-text" href="../account.html">Account</a></li>
             <li><a class="white-text" href="../blog.html">Blog</a></li>
             <li><a class="white-text" href="#!">Pembayaran</a></li>
             <li><a class="white-text" href="#!">Konfirmasi Order</a></li>
